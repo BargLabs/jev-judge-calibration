@@ -1,0 +1,307 @@
+{
+  "kind": "post_hoc_secondary_analysis",
+  "computedFrom": "frozen_call_log_after_scored_primary_analysis",
+  "predictionRegistered": false,
+  "primaryReproducedExactly": true,
+  "callLogDigest": "858ef19522765ed53353928ea8147d760e6eab861a81f4b1cd73b08a8845a5dd",
+  "corpusDigest": "c8d777ef059e4f1d368df004f6e3dd2a79e2fd9161aeefec63d0f78dd0d8517d",
+  "primaryHarnessCommit": "0a8a04ebcb80394776abfc6809b36006eb0eec59",
+  "primaryModel": "jev-1.13.0",
+  "primaryRunWindow": {
+    "startedAt": "2026-09-20T23:19:04.962Z",
+    "completedAt": "2026-09-20T23:23:00.782Z"
+  },
+  "labelSpace": {
+    "n": 430,
+    "labels": [
+      {
+        "label": "accurate",
+        "n": 50
+      },
+      {
+        "label": "premature",
+        "n": 100
+      },
+      {
+        "label": "fabricated_reference",
+        "n": 100
+      },
+      {
+        "label": "wrong_count",
+        "n": 82
+      },
+      {
+        "label": "scope_mismatch",
+        "n": 98
+      }
+    ],
+    "largestClass": {
+      "label": "premature",
+      "n": 100
+    },
+    "baseline": {
+      "numerator": 100,
+      "denominator": 430,
+      "rate": 0.23255813953488372,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.19510263242764708,
+        "upper": 0.27474978641400494
+      }
+    }
+  },
+  "perLabelAccuracy": [
+    {
+      "truth": "accurate",
+      "arm": "clean",
+      "numerator": 50,
+      "denominator": 50,
+      "rate": 1
+    },
+    {
+      "truth": "accurate",
+      "arm": "pooled",
+      "numerator": 50,
+      "denominator": 50,
+      "rate": 1
+    },
+    {
+      "truth": "premature",
+      "arm": "plain",
+      "numerator": 24,
+      "denominator": 50,
+      "rate": 0.48
+    },
+    {
+      "truth": "premature",
+      "arm": "persuasive",
+      "numerator": 24,
+      "denominator": 50,
+      "rate": 0.48
+    },
+    {
+      "truth": "premature",
+      "arm": "pooled",
+      "numerator": 48,
+      "denominator": 100,
+      "rate": 0.48
+    },
+    {
+      "truth": "fabricated_reference",
+      "arm": "plain",
+      "numerator": 49,
+      "denominator": 50,
+      "rate": 0.98
+    },
+    {
+      "truth": "fabricated_reference",
+      "arm": "persuasive",
+      "numerator": 50,
+      "denominator": 50,
+      "rate": 1
+    },
+    {
+      "truth": "fabricated_reference",
+      "arm": "pooled",
+      "numerator": 99,
+      "denominator": 100,
+      "rate": 0.99
+    },
+    {
+      "truth": "wrong_count",
+      "arm": "plain",
+      "numerator": 49,
+      "denominator": 50,
+      "rate": 0.98
+    },
+    {
+      "truth": "wrong_count",
+      "arm": "persuasive",
+      "numerator": 32,
+      "denominator": 32,
+      "rate": 1
+    },
+    {
+      "truth": "wrong_count",
+      "arm": "pooled",
+      "numerator": 81,
+      "denominator": 82,
+      "rate": 0.9878048780487805
+    },
+    {
+      "truth": "scope_mismatch",
+      "arm": "plain",
+      "numerator": 49,
+      "denominator": 50,
+      "rate": 0.98
+    },
+    {
+      "truth": "scope_mismatch",
+      "arm": "persuasive",
+      "numerator": 47,
+      "denominator": 48,
+      "rate": 0.9791666666666666
+    },
+    {
+      "truth": "scope_mismatch",
+      "arm": "pooled",
+      "numerator": 96,
+      "denominator": 98,
+      "rate": 0.9795918367346939
+    }
+  ],
+  "confusionMatrix": [
+    {
+      "truth": "accurate",
+      "pick": "accurate",
+      "n": 50
+    },
+    {
+      "truth": "accurate",
+      "pick": "premature",
+      "n": 0
+    },
+    {
+      "truth": "accurate",
+      "pick": "fabricated_reference",
+      "n": 0
+    },
+    {
+      "truth": "accurate",
+      "pick": "wrong_count",
+      "n": 0
+    },
+    {
+      "truth": "accurate",
+      "pick": "scope_mismatch",
+      "n": 0
+    },
+    {
+      "truth": "premature",
+      "pick": "accurate",
+      "n": 52
+    },
+    {
+      "truth": "premature",
+      "pick": "premature",
+      "n": 48
+    },
+    {
+      "truth": "premature",
+      "pick": "fabricated_reference",
+      "n": 0
+    },
+    {
+      "truth": "premature",
+      "pick": "wrong_count",
+      "n": 0
+    },
+    {
+      "truth": "premature",
+      "pick": "scope_mismatch",
+      "n": 0
+    },
+    {
+      "truth": "fabricated_reference",
+      "pick": "accurate",
+      "n": 1
+    },
+    {
+      "truth": "fabricated_reference",
+      "pick": "premature",
+      "n": 0
+    },
+    {
+      "truth": "fabricated_reference",
+      "pick": "fabricated_reference",
+      "n": 99
+    },
+    {
+      "truth": "fabricated_reference",
+      "pick": "wrong_count",
+      "n": 0
+    },
+    {
+      "truth": "fabricated_reference",
+      "pick": "scope_mismatch",
+      "n": 0
+    },
+    {
+      "truth": "wrong_count",
+      "pick": "accurate",
+      "n": 1
+    },
+    {
+      "truth": "wrong_count",
+      "pick": "premature",
+      "n": 0
+    },
+    {
+      "truth": "wrong_count",
+      "pick": "fabricated_reference",
+      "n": 0
+    },
+    {
+      "truth": "wrong_count",
+      "pick": "wrong_count",
+      "n": 81
+    },
+    {
+      "truth": "wrong_count",
+      "pick": "scope_mismatch",
+      "n": 0
+    },
+    {
+      "truth": "scope_mismatch",
+      "pick": "accurate",
+      "n": 2
+    },
+    {
+      "truth": "scope_mismatch",
+      "pick": "premature",
+      "n": 0
+    },
+    {
+      "truth": "scope_mismatch",
+      "pick": "fabricated_reference",
+      "n": 0
+    },
+    {
+      "truth": "scope_mismatch",
+      "pick": "wrong_count",
+      "n": 0
+    },
+    {
+      "truth": "scope_mismatch",
+      "pick": "scope_mismatch",
+      "n": 96
+    }
+  ],
+  "crossTab": {
+    "n": 380,
+    "cells": [
+      {
+        "choiceCorrect": true,
+        "cleared": true,
+        "n": 174
+      },
+      {
+        "choiceCorrect": true,
+        "cleared": false,
+        "n": 150
+      },
+      {
+        "choiceCorrect": false,
+        "cleared": true,
+        "n": 50
+      },
+      {
+        "choiceCorrect": false,
+        "cleared": false,
+        "n": 6
+      }
+    ],
+    "clearedShareOfCorrect": 0.5370370370370371
+  }
+}

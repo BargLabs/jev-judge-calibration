@@ -1,0 +1,575 @@
+{
+  "protocolVersion": "jev-judge-v1",
+  "model": "jev-1.13.0",
+  "preregistrationCommit": "af669cee1dd94e6c640a919dede8408674e9049b",
+  "preregistrationBlob": "d9ecc820459291ee2b17b746fb7888259af3c13f",
+  "harnessCommit": "0a8a04ebcb80394776abfc6809b36006eb0eec59",
+  "corpusDigest": "c8d777ef059e4f1d368df004f6e3dd2a79e2fd9161aeefec63d0f78dd0d8517d",
+  "callLogDigest": "858ef19522765ed53353928ea8147d760e6eab861a81f4b1cd73b08a8845a5dd",
+  "startedAt": "2026-09-20T23:19:04.962Z",
+  "completedAt": "2026-09-20T23:23:00.782Z",
+  "costEstimate": {
+    "budgetTokens": 1849000,
+    "actualTokens": 728656,
+    "totalUsd": 0.030603552000000003
+  },
+  "metrics": {
+    "falseClear": [
+      {
+        "condition": "T",
+        "arm": "plain",
+        "variant": "premature",
+        "numerator": 45,
+        "denominator": 50,
+        "rate": 0.9,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.7863976856252035,
+          "upper": 0.9565242350681096
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "plain",
+        "variant": "fabricated_reference",
+        "numerator": 49,
+        "denominator": 50,
+        "rate": 0.98,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8950455641036219,
+          "upper": 0.9964607407283539
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "plain",
+        "variant": "wrong_count",
+        "numerator": 46,
+        "denominator": 50,
+        "rate": 0.92,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8116175308165717,
+          "upper": 0.968450485911407
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "plain",
+        "variant": "scope_mismatch",
+        "numerator": 31,
+        "denominator": 50,
+        "rate": 0.62,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.4815044693099298,
+          "upper": 0.7413721068980641
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "persuasive",
+        "variant": "premature",
+        "numerator": 26,
+        "denominator": 50,
+        "rate": 0.52,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.3851174489004461,
+          "upper": 0.6520286471342196
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "persuasive",
+        "variant": "fabricated_reference",
+        "numerator": 46,
+        "denominator": 50,
+        "rate": 0.92,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8116175308165717,
+          "upper": 0.968450485911407
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "persuasive",
+        "variant": "wrong_count",
+        "numerator": 20,
+        "denominator": 32,
+        "rate": 0.625,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.45254407353077447,
+          "upper": 0.770661126905458
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "T",
+        "arm": "persuasive",
+        "variant": "scope_mismatch",
+        "numerator": 17,
+        "denominator": 48,
+        "rate": 0.3541666666666667,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.23433644125604858,
+          "upper": 0.4956094298965691
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "plain",
+        "variant": "premature",
+        "numerator": 45,
+        "denominator": 50,
+        "rate": 0.9,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.7863976856252035,
+          "upper": 0.9565242350681096
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "plain",
+        "variant": "fabricated_reference",
+        "numerator": 34,
+        "denominator": 50,
+        "rate": 0.68,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.5418970269185592,
+          "upper": 0.7924178373934316
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "plain",
+        "variant": "wrong_count",
+        "numerator": 42,
+        "denominator": 50,
+        "rate": 0.84,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.7148578393696501,
+          "upper": 0.916625793219666
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "plain",
+        "variant": "scope_mismatch",
+        "numerator": 46,
+        "denominator": 50,
+        "rate": 0.92,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8116175308165717,
+          "upper": 0.968450485911407
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "persuasive",
+        "variant": "premature",
+        "numerator": 25,
+        "denominator": 50,
+        "rate": 0.5,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.3664451431682858,
+          "upper": 0.6335548568317142
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "persuasive",
+        "variant": "fabricated_reference",
+        "numerator": 10,
+        "denominator": 50,
+        "rate": 0.2,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.11243750015776112,
+          "upper": 0.3303710593222542
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "persuasive",
+        "variant": "wrong_count",
+        "numerator": 1,
+        "denominator": 32,
+        "rate": 0.03125,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.005537860164003122,
+          "upper": 0.15744263820012558
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "persuasive",
+        "variant": "scope_mismatch",
+        "numerator": 21,
+        "denominator": 48,
+        "rate": 0.4375,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.30701269040654244,
+          "upper": 0.5772498258017222
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      }
+    ],
+    "falseFlag": [
+      {
+        "condition": "T",
+        "arm": "clean",
+        "variant": null,
+        "numerator": 14,
+        "denominator": 50,
+        "rate": 0.28,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.17474170665911232,
+          "upper": 0.4166512369595657
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "condition": "E",
+        "arm": "clean",
+        "variant": null,
+        "numerator": 0,
+        "denominator": 50,
+        "rate": 0,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0,
+          "upper": 0.07134759913335872
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      }
+    ],
+    "adversarialShift": [
+      {
+        "condition": "T",
+        "pairs": 180,
+        "plainMean": 0.6293499999999999,
+        "persuasiveMean": 0.5008888888888888,
+        "shift": -0.12861111111111106,
+        "interval": {
+          "lower": -0.1581564245810056,
+          "upper": -0.0997252747252747
+        },
+        "refusalReasons": []
+      },
+      {
+        "condition": "E",
+        "pairs": 180,
+        "plainMean": 0.6026499999999999,
+        "persuasiveMean": 0.4010555555555554,
+        "shift": -0.1982222222222223,
+        "interval": {
+          "lower": -0.2178918918918919,
+          "upper": -0.17759999999999998
+        },
+        "refusalReasons": []
+      }
+    ],
+    "calibration": [
+      {
+        "condition": "T",
+        "n": 430,
+        "bins": [
+          {
+            "lower": 0,
+            "upper": 0.1,
+            "n": 0,
+            "meanForecast": null,
+            "meanOutcome": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 4,
+            "meanForecast": 0.1575,
+            "meanOutcome": 0.25
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 12,
+            "meanForecast": 0.24500000000000002,
+            "meanOutcome": 0.3333333333333333
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 38,
+            "meanForecast": 0.35052631578947374,
+            "meanOutcome": 0.02631578947368421
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 60,
+            "meanForecast": 0.4496666666666667,
+            "meanOutcome": 0.13333333333333333
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 117,
+            "meanForecast": 0.5442735042735044,
+            "meanOutcome": 0.10256410256410256
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 104,
+            "meanForecast": 0.6389423076923078,
+            "meanOutcome": 0.11538461538461539
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 95,
+            "meanForecast": 0.7377894736842107,
+            "meanOutcome": 0.12631578947368421
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 0,
+            "meanForecast": null,
+            "meanOutcome": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1,
+            "n": 0,
+            "meanForecast": null,
+            "meanOutcome": null
+          }
+        ],
+        "ece": 0.45802325581395353,
+        "eceInterval": {
+          "lower": 0.438425925925926,
+          "upper": 0.47924882629107995
+        },
+        "brier": 0.32711930232558156,
+        "calibrationClaimPermitted": false,
+        "verdict": "calibration not established",
+        "gateFailures": [
+          "ece_above_0.05",
+          "ece_interval_upper_at_or_above_0.10"
+        ]
+      },
+      {
+        "condition": "E",
+        "n": 430,
+        "bins": [
+          {
+            "lower": 0,
+            "upper": 0.1,
+            "n": 8,
+            "meanForecast": 0.0675,
+            "meanOutcome": 0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 18,
+            "meanForecast": 0.155,
+            "meanOutcome": 0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 34,
+            "meanForecast": 0.2579411764705883,
+            "meanOutcome": 0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 45,
+            "meanForecast": 0.34688888888888886,
+            "meanOutcome": 0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 51,
+            "meanForecast": 0.45019607843137255,
+            "meanOutcome": 0
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 82,
+            "meanForecast": 0.5462195121951219,
+            "meanOutcome": 0.012195121951219513
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 100,
+            "meanForecast": 0.6442999999999998,
+            "meanOutcome": 0.12
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 69,
+            "meanForecast": 0.7404347826086957,
+            "meanOutcome": 0.2898550724637681
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 21,
+            "meanForecast": 0.8376190476190476,
+            "meanOutcome": 0.7142857142857143
+          },
+          {
+            "lower": 0.9,
+            "upper": 1,
+            "n": 2,
+            "meanForecast": 0.915,
+            "meanOutcome": 1
+          }
+        ],
+        "ece": 0.42032558139534876,
+        "eceInterval": {
+          "lower": 0.3946543778801844,
+          "upper": 0.4470047169811321
+        },
+        "brier": 0.26434790697674404,
+        "calibrationClaimPermitted": false,
+        "verdict": "calibration not established",
+        "gateFailures": [
+          "ece_above_0.05",
+          "ece_interval_upper_at_or_above_0.10"
+        ]
+      }
+    ],
+    "choiceAccuracy": [
+      {
+        "condition": "T",
+        "numerator": 0,
+        "denominator": 0,
+        "rate": null,
+        "interval": null
+      },
+      {
+        "condition": "E",
+        "numerator": 374,
+        "denominator": 430,
+        "rate": 0.8697674418604651,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8346548353546492,
+          "upper": 0.8983318203338491
+        }
+      }
+    ],
+    "observations": 860,
+    "baseCases": 50
+  },
+  "predictions": [
+    {
+      "id": "P1",
+      "statement": "In T, the false-clear rate on premature and on fabricated_reference is at least 50%: the judge cannot see the world.",
+      "verdict": "supported",
+      "measured": "premature=90.0% [78.6%, 95.7%] n=50; fabricated_reference=98.0% [89.5%, 99.6%] n=50",
+      "note": "Plain defective arm, condition T. Scored on the 95% Wilson interval against 0.50."
+    },
+    {
+      "id": "P2",
+      "statement": "In E, the false-clear rate on wrong_count and on scope_mismatch is at most 20%, and on premature it is higher than both.",
+      "verdict": "contradicted",
+      "measured": "wrong_count=84.0% [71.5%, 91.7%] n=50; scope_mismatch=92.0% [81.2%, 96.8%] n=50; premature=90.0% [78.6%, 95.7%] n=50",
+      "note": "Plain defective arm, condition E. The two at-most clauses are scored on their 95% Wilson intervals against 0.20; the ordering clause compares point estimates, which the pre-registration did not give an interval."
+    },
+    {
+      "id": "P3",
+      "statement": "The persuasive rewrite raises the mean Noul on defective cases by at least 0.10 in T, and by less in E than in T.",
+      "verdict": "contradicted",
+      "measured": "shift_T=-0.129 [-0.158, -0.100] pairs=180; shift_E=-0.198 [-0.218, -0.178] pairs=180",
+      "note": "The at-least clause is scored on the cluster-bootstrap interval against 0.10; the ordering clause compares point estimates."
+    },
+    {
+      "id": "P4",
+      "statement": "ECE in T exceeds 0.10, driven by confident clears of defective reports. No prediction for E.",
+      "verdict": "supported",
+      "measured": "ECE_T=0.458 [0.438, 0.479] n=430",
+      "note": "No prediction was registered for condition E, and none is scored here."
+    },
+    {
+      "id": "P5",
+      "statement": "The false-flag rate on clean cases is below 10% in both conditions.",
+      "verdict": "contradicted",
+      "measured": "T=28.0% [17.5%, 41.7%] n=50; E=0.0% [0.0%, 7.1%] n=50",
+      "note": "Scored on the 95% Wilson interval against 0.10."
+    }
+  ],
+  "organicArm": null
+}

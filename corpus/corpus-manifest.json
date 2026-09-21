@@ -1,0 +1,53 @@
+{
+  "caseCounts": {
+    "clean": 50,
+    "persuasive": 180,
+    "plain": 200,
+    "total": 430
+  },
+  "corpusPath": "packages/bede/src/jev-judge/corpus/jev-judge-corpus.json",
+  "errata": [
+    {
+      "commit": "fb1bfd0e16aba97dbfa16961eea9288146b8dd03",
+      "path": "docs/experiments/jev-judge-calibration-errata-2026-09-20.md"
+    },
+    {
+      "commit": "326061c97101e178b5f35982844297d33cd87936",
+      "path": "docs/experiments/jev-judge-calibration-errata-2-2026-09-20.md"
+    },
+    {
+      "commit": "49bee0fa68a5bf0a22c411fd74fa785586d0671a",
+      "path": "docs/experiments/jev-judge-calibration-errata-3-2026-09-20.md"
+    }
+  ],
+  "forced": false,
+  "frameExclusionCount": 3742,
+  "poolRefetched": false,
+  "protocolVersion": "jev-judge-v1",
+  "segments": [
+    {
+      "admittedCount": 49,
+      "authorisedBy": "docs/experiments/jev-judge-calibration-preregistration-2026-09-19.md",
+      "duplicateCount": 0,
+      "entryCount": 1000,
+      "id": "A",
+      "order": "asc",
+      "pageCount": 10,
+      "query": "is:pr is:merged draft:false merged:2026-06-01..2026-08-31 comments:>=1",
+      "sort": "created"
+    },
+    {
+      "admittedCount": 1,
+      "authorisedBy": "docs/experiments/jev-judge-calibration-errata-2026-09-20.md",
+      "duplicateCount": 0,
+      "entryCount": 1000,
+      "id": "B",
+      "order": "desc",
+      "pageCount": 10,
+      "query": "is:pr is:merged draft:false merged:2026-06-01..2026-08-31 comments:>=1",
+      "sort": "created"
+    }
+  ],
+  "selectionSeed": "jev-judge-calibration-2026-09-19-v1",
+  "sha256": "c8d777ef059e4f1d368df004f6e3dd2a79e2fd9161aeefec63d0f78dd0d8517d"
+}
