@@ -1,0 +1,353 @@
+{
+  "kind": "jev_judge_anchoring_mechanism_test",
+  "preregistration": "docs/experiments/jev-judge-anchoring-preregistration-2026-09-22.md",
+  "model": "jev-1.13.0",
+  "preregistrationCommit": "99e5a6e331f0437bf737844cfcfa4b628e0e2b6f",
+  "preregistrationBlob": "1f90983c59c5af8cf171d45620c523f539c30a53",
+  "harnessCommit": "88be495389960c7544653bbc4cb75b5d1d4b945e",
+  "corpusDigest": "c8d777ef059e4f1d368df004f6e3dd2a79e2fd9161aeefec63d0f78dd0d8517d",
+  "startedAt": "2026-09-23T18:29:17.970Z",
+  "completedAt": "2026-09-23T18:39:28.948Z",
+  "costEstimate": {
+    "budgetTokens": 2012800,
+    "actualTokens": 467013,
+    "totalUsd": 0.019614546000000004
+  },
+  "armStats": [
+    {
+      "arm": 0,
+      "calls": 148,
+      "meanInputTokens": 2048.114864864865,
+      "estimatedInputTokens": 163307,
+      "estimatedUsd": 0.006858894,
+      "wallClockMs": 138768,
+      "callLogPath": "/Users/bargs/projects/alfred/.worktrees/jev-live-2026-09-23/tmp/jev-judge/anchoring-20260923/calls-arm0.jsonl",
+      "callLogDigest": "3788faaae972b0538237a80c6122475e0066ab8f5c6e679c8bacb90c901e6e42"
+    },
+    {
+      "arm": 1,
+      "calls": 148,
+      "meanInputTokens": 2048.114864864865,
+      "estimatedInputTokens": 163307,
+      "estimatedUsd": 0.006858894,
+      "wallClockMs": 140589,
+      "callLogPath": "/Users/bargs/projects/alfred/.worktrees/jev-live-2026-09-23/tmp/jev-judge/anchoring-20260923/calls-arm1.jsonl",
+      "callLogDigest": "1c8602693df44aedbe72b8e9972b4c2cfefc6089e8c07d80b3b2e14c4f50be8b"
+    },
+    {
+      "arm": 2,
+      "calls": 148,
+      "meanInputTokens": 1195.5337837837837,
+      "estimatedInputTokens": 98002,
+      "estimatedUsd": 0.004116084,
+      "wallClockMs": 154834,
+      "callLogPath": "/Users/bargs/projects/alfred/.worktrees/jev-live-2026-09-23/tmp/jev-judge/anchoring-20260923/calls-arm2.jsonl",
+      "callLogDigest": "500f01bf82ec5d323933ac82d9ba984beef6a04882b4e147d4d7ae312053e17e"
+    },
+    {
+      "arm": 3,
+      "calls": 148,
+      "meanInputTokens": 831.2094594594595,
+      "estimatedInputTokens": 42397,
+      "estimatedUsd": 0.001780674,
+      "wallClockMs": 176776,
+      "callLogPath": "/Users/bargs/projects/alfred/.worktrees/jev-live-2026-09-23/tmp/jev-judge/anchoring-20260923/calls-arm3.jsonl",
+      "callLogDigest": "172816607a7996eda5927a974fa7320cfb906a457d5097b9ef3aef3a62af58fd"
+    }
+  ],
+  "metrics": {
+    "falseClear": [
+      {
+        "arm": 0,
+        "caseArm": "plain",
+        "numerator": 47,
+        "denominator": 50,
+        "rate": 0.94,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8378290831116182,
+          "upper": 0.979385029651026
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 0,
+        "caseArm": "persuasive",
+        "numerator": 22,
+        "denominator": 48,
+        "rate": 0.4583333333333333,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.3257524229286745,
+          "upper": 0.5970892545435018
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 1,
+        "caseArm": "plain",
+        "numerator": 46,
+        "denominator": 50,
+        "rate": 0.92,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.8116175308165717,
+          "upper": 0.968450485911407
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 1,
+        "caseArm": "persuasive",
+        "numerator": 20,
+        "denominator": 48,
+        "rate": 0.4166666666666667,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.2884966777841157,
+          "upper": 0.5571866771602373
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 2,
+        "caseArm": "plain",
+        "numerator": 33,
+        "denominator": 50,
+        "rate": 0.66,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.521538260502326,
+          "upper": 0.7756305077749992
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 2,
+        "caseArm": "persuasive",
+        "numerator": 18,
+        "denominator": 48,
+        "rate": 0.375,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.25215266760868205,
+          "upper": 0.5163723648078473
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 3,
+        "caseArm": "plain",
+        "numerator": 1,
+        "denominator": 50,
+        "rate": 0.02,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.003539259271646236,
+          "upper": 0.10495443589637815
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 3,
+        "caseArm": "persuasive",
+        "numerator": 2,
+        "denominator": 48,
+        "rate": 0.041666666666666664,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.0115018934893866,
+          "upper": 0.13975655870455442
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      }
+    ],
+    "falseFlag": [
+      {
+        "arm": 0,
+        "numerator": 0,
+        "denominator": 50,
+        "rate": 0,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0,
+          "upper": 0.07134759913335872
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 1,
+        "numerator": 0,
+        "denominator": 50,
+        "rate": 0,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0,
+          "upper": 0.07134759913335872
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 2,
+        "numerator": 0,
+        "denominator": 50,
+        "rate": 0,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0,
+          "upper": 0.07134759913335872
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      },
+      {
+        "arm": 3,
+        "numerator": 0,
+        "denominator": 50,
+        "rate": 0,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0,
+          "upper": 0.07134759913335872
+        },
+        "refusalReasons": [],
+        "claimBearing": true
+      }
+    ],
+    "choiceAccuracy": [
+      {
+        "arm": 0,
+        "numerator": 147,
+        "denominator": 148,
+        "rate": 0.9932432432432432,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.962722954423538,
+          "upper": 0.9988062691095932
+        }
+      },
+      {
+        "arm": 1,
+        "numerator": 145,
+        "denominator": 148,
+        "rate": 0.9797297297297297,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.9421032514042058,
+          "upper": 0.9930827057307576
+        }
+      },
+      {
+        "arm": 2,
+        "numerator": 147,
+        "denominator": 148,
+        "rate": 0.9932432432432432,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.962722954423538,
+          "upper": 0.9988062691095932
+        }
+      },
+      {
+        "arm": 3,
+        "numerator": 148,
+        "denominator": 148,
+        "rate": 1,
+        "interval": {
+          "confidence": 0.95,
+          "z": 1.959963984540054,
+          "lower": 0.9747008567322154,
+          "upper": 0.9999999999999999
+        }
+      }
+    ],
+    "sizeRatios": {
+      "arm2OverArm0": {
+        "numeratorArm": 2,
+        "denominatorArm": 0,
+        "numeratorRate": 0.66,
+        "denominatorRate": 0.94,
+        "ratio": 0.7021276595744682,
+        "interval": {
+          "lower": 0.5714285714285715,
+          "upper": 0.8297872340425533
+        }
+      },
+      "arm3OverArm0": {
+        "numeratorArm": 3,
+        "denominatorArm": 0,
+        "numeratorRate": 0.02,
+        "denominatorRate": 0.94,
+        "ratio": 0.021276595744680854,
+        "interval": {
+          "lower": 0,
+          "upper": 0.06666666666666667
+        }
+      }
+    },
+    "positionRatio": {
+      "numeratorArm": 1,
+      "denominatorArm": 0,
+      "numeratorRate": 0.92,
+      "denominatorRate": 0.94,
+      "ratio": 0.9787234042553192,
+      "interval": {
+        "lower": 0.9333333333333332,
+        "upper": 1
+      }
+    },
+    "observations": 592,
+    "baseCases": 50
+  },
+  "predictions": [
+    {
+      "id": "PA-0",
+      "statement": "Arm 0 reproduces the primary's scope_mismatch false-clear rate (E, plain, n=50) within its Wilson interval.",
+      "verdict": "supported",
+      "measured": "arm0=94.0% [81.2%, 96.8%] target-n=50"
+    },
+    {
+      "id": "PA-1",
+      "statement": "If the mechanism is anchoring on evidence size, Arm 2 false-clears at most half of Arm 0's rate, and Arm 3 at most a quarter.",
+      "verdict": "contradicted",
+      "measured": "arm2/arm0=0.702 [0.571, 0.830]; arm3/arm0=0.021 [0.000, 0.067]"
+    },
+    {
+      "id": "PA-2",
+      "statement": "If the mechanism is position, Arm 1 false-clears at most half of Arm 0's rate.",
+      "verdict": "contradicted",
+      "measured": "arm1/arm0=0.979 [0.933, 1.000]"
+    },
+    {
+      "id": "PA-3",
+      "statement": "The clean false-flag rate does not rise above 10% in any arm.",
+      "verdict": "supported",
+      "measured": "arm0=0.0%; arm1=0.0%; arm2=0.0%; arm3=0.0%"
+    }
+  ]
+}

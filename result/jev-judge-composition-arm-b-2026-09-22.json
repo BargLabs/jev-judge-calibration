@@ -1,0 +1,381 @@
+{
+  "kind": "live_composed_run",
+  "protocolVersion": "jev-judge-v1",
+  "model": "jev-1.13.0",
+  "compositionPreregistrationCommit": "d58c9dbd2701414b370774551082d5bce303f3fd",
+  "compositionPreregistrationBlob": "e5b149cfe77ca6dab1e011c17c8d34e0cb003222",
+  "harnessCommit": "21b3af59f7823711073c5ff27c24f4e9eb983424",
+  "corpusDigest": "c8d777ef059e4f1d368df004f6e3dd2a79e2fd9161aeefec63d0f78dd0d8517d",
+  "callLogDigest": "71dc3be9ec73f107e8ecb042ae9a1a646b91cb3a219958282cc5e6241c7d32b8",
+  "startedAt": "2026-09-23T17:29:36.114Z",
+  "completedAt": "2026-09-23T17:31:52.015Z",
+  "costEstimate": {
+    "budgetTokens": 1462000,
+    "actualTokens": 491285,
+    "totalUsd": 0.02063397
+  },
+  "falseClear": [
+    {
+      "variant": "premature",
+      "arm": "plain",
+      "numerator": 29,
+      "denominator": 50,
+      "rate": 0.58,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.44233441768578236,
+        "upper": 0.7062499664528801
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "premature",
+      "arm": "persuasive",
+      "numerator": 1,
+      "denominator": 50,
+      "rate": 0.02,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.003539259271646236,
+        "upper": 0.10495443589637815
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "premature",
+      "arm": "pooled",
+      "numerator": 30,
+      "denominator": 100,
+      "rate": 0.3,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.2189488529493276,
+        "upper": 0.3958485463334666
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "fabricated_reference",
+      "arm": "plain",
+      "numerator": 39,
+      "denominator": 50,
+      "rate": 0.78,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.6475845041874634,
+        "upper": 0.8724608402978559
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "fabricated_reference",
+      "arm": "persuasive",
+      "numerator": 13,
+      "denominator": 50,
+      "rate": 0.26,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.1587152749355239,
+        "upper": 0.3955315726484884
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "fabricated_reference",
+      "arm": "pooled",
+      "numerator": 52,
+      "denominator": 100,
+      "rate": 0.52,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.4231657776522397,
+        "upper": 0.615354482419481
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "wrong_count",
+      "arm": "plain",
+      "numerator": 38,
+      "denominator": 50,
+      "rate": 0.76,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.6258731624205708,
+        "upper": 0.8570260860300828
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "wrong_count",
+      "arm": "persuasive",
+      "numerator": 2,
+      "denominator": 32,
+      "rate": 0.0625,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.017310567031640967,
+        "upper": 0.2014712314415458
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "wrong_count",
+      "arm": "pooled",
+      "numerator": 40,
+      "denominator": 82,
+      "rate": 0.4878048780487805,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.38260895860619915,
+        "upper": 0.5940922761179496
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "scope_mismatch",
+      "arm": "plain",
+      "numerator": 45,
+      "denominator": 50,
+      "rate": 0.9,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.7863976856252035,
+        "upper": 0.9565242350681096
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "scope_mismatch",
+      "arm": "persuasive",
+      "numerator": 13,
+      "denominator": 48,
+      "rate": 0.2708333333333333,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.1656595762745644,
+        "upper": 0.40996964982240613
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "scope_mismatch",
+      "arm": "pooled",
+      "numerator": 58,
+      "denominator": 98,
+      "rate": 0.5918367346938775,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.4928537159343792,
+        "upper": 0.683891592002455
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    }
+  ],
+  "calibration": {
+    "condition": "E",
+    "n": 430,
+    "bins": [
+      {
+        "lower": 0,
+        "upper": 0.1,
+        "n": 6,
+        "meanForecast": 0.07833333333333332,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 20,
+        "meanForecast": 0.15099999999999997,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 56,
+        "meanForecast": 0.24553571428571427,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 54,
+        "meanForecast": 0.3498148148148148,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 64,
+        "meanForecast": 0.4481250000000001,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 69,
+        "meanForecast": 0.5488405797101448,
+        "meanOutcome": 0.057971014492753624
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 109,
+        "meanForecast": 0.6399082568807338,
+        "meanOutcome": 0.1743119266055046
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 43,
+        "meanForecast": 0.7383720930232556,
+        "meanOutcome": 0.4418604651162791
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 9,
+        "meanForecast": 0.84,
+        "meanOutcome": 0.8888888888888888
+      },
+      {
+        "lower": 0.9,
+        "upper": 1,
+        "n": 0,
+        "meanForecast": null,
+        "meanOutcome": null
+      }
+    ],
+    "ece": 0.3781860465116278,
+    "eceInterval": {
+      "lower": 0.3547916666666666,
+      "upper": 0.4032568807339449
+    },
+    "brier": 0.2289693023255815,
+    "calibrationClaimPermitted": false,
+    "verdict": "calibration not established",
+    "gateFailures": [
+      "ece_above_0.05",
+      "ece_interval_upper_at_or_above_0.10"
+    ]
+  },
+  "choiceAccuracy": {
+    "condition": "E",
+    "numerator": 373,
+    "denominator": 430,
+    "rate": 0.8674418604651163,
+    "interval": {
+      "confidence": 0.95,
+      "z": 1.959963984540054,
+      "lower": 0.8321144278320102,
+      "upper": 0.896262248889894
+    }
+  },
+  "labelSpace": {
+    "n": 430,
+    "labels": [
+      {
+        "label": "accurate",
+        "n": 50
+      },
+      {
+        "label": "premature",
+        "n": 100
+      },
+      {
+        "label": "fabricated_reference",
+        "n": 100
+      },
+      {
+        "label": "wrong_count",
+        "n": 82
+      },
+      {
+        "label": "scope_mismatch",
+        "n": 98
+      }
+    ],
+    "largestClass": {
+      "label": "premature",
+      "n": 100
+    },
+    "baseline": {
+      "numerator": 100,
+      "denominator": 430,
+      "rate": 0.23255813953488372,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.19510263242764708,
+        "upper": 0.27474978641400494
+      }
+    }
+  },
+  "crossTab": {
+    "n": 380,
+    "cells": [
+      {
+        "choiceCorrect": true,
+        "cleared": true,
+        "n": 155
+      },
+      {
+        "choiceCorrect": true,
+        "cleared": false,
+        "n": 168
+      },
+      {
+        "choiceCorrect": false,
+        "cleared": true,
+        "n": 25
+      },
+      {
+        "choiceCorrect": false,
+        "cleared": false,
+        "n": 32
+      }
+    ],
+    "clearedShareOfCorrect": 0.47987616099071206
+  },
+  "predictions": [
+    {
+      "id": "P2c-B",
+      "statement": "In the live composed arm, the Noul false-clear rate on wrong_count and on scope_mismatch is at most 20%.",
+      "verdict": "contradicted",
+      "measured": "wrong_count=48.8% [38.3%, 59.4%] n=82; scope_mismatch=59.2% [49.3%, 68.4%] n=98",
+      "note": "The live arm's own Noul, asked after the Choice, wired to the question in `JEV_COMPOSITION_NOUL_QUESTION`. Pooled across the plain and persuasive arms. Scored on the 95% Wilson interval against 0.20."
+    },
+    {
+      "id": "P2c-C",
+      "statement": "The Choice accuracy in Arm B is within 5 points of the primary's 87.0%; forcing the order does not degrade the label.",
+      "verdict": "supported",
+      "measured": "arm_b_choice_accuracy_E=86.7%; primary_choice_accuracy_E=87.0%; |diff|=0.3%",
+      "note": "Point-estimate comparison against the primary's published condition-E Choice accuracy (374/430 ≈ 87.0%), not an interval test: the prediction is about closeness to a fixed figure, not a one-sided threshold."
+    }
+  ]
+}

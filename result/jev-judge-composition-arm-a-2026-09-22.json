@@ -1,0 +1,328 @@
+{
+  "kind": "post_hoc_composed_clearing_re_scoring",
+  "computedFrom": "frozen_call_log_after_scored_primary_and_secondary_analysis",
+  "predictionRegisteredBeforeComputation": "P2c-A",
+  "primaryReproducedExactly": true,
+  "callLogDigest": "858ef19522765ed53353928ea8147d760e6eab861a81f4b1cd73b08a8845a5dd",
+  "corpusDigest": "c8d777ef059e4f1d368df004f6e3dd2a79e2fd9161aeefec63d0f78dd0d8517d",
+  "primaryHarnessCommit": "0a8a04ebcb80394776abfc6809b36006eb0eec59",
+  "primaryModel": "jev-1.13.0",
+  "primaryRunWindow": {
+    "startedAt": "2026-09-20T23:19:04.962Z",
+    "completedAt": "2026-09-20T23:23:00.782Z"
+  },
+  "composedObservations": 430,
+  "falseClear": [
+    {
+      "variant": "premature",
+      "arm": "plain",
+      "numerator": 25,
+      "denominator": 50,
+      "rate": 0.5,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.3664451431682858,
+        "upper": 0.6335548568317142
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "premature",
+      "arm": "persuasive",
+      "numerator": 20,
+      "denominator": 50,
+      "rate": 0.4,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.27608389730256544,
+        "upper": 0.5381856225241064
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "premature",
+      "arm": "pooled",
+      "numerator": 45,
+      "denominator": 100,
+      "rate": 0.45,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.3561453797951198,
+        "upper": 0.5475539700255787
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "fabricated_reference",
+      "arm": "plain",
+      "numerator": 0,
+      "denominator": 50,
+      "rate": 0,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0,
+        "upper": 0.07134759913335872
+      },
+      "refusalReasons": [
+        "possible_construction_leakage:fabricated_reference:plain"
+      ],
+      "claimBearing": false
+    },
+    {
+      "variant": "fabricated_reference",
+      "arm": "persuasive",
+      "numerator": 0,
+      "denominator": 50,
+      "rate": 0,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0,
+        "upper": 0.07134759913335872
+      },
+      "refusalReasons": [
+        "possible_construction_leakage:fabricated_reference:persuasive"
+      ],
+      "claimBearing": false
+    },
+    {
+      "variant": "fabricated_reference",
+      "arm": "pooled",
+      "numerator": 0,
+      "denominator": 100,
+      "rate": 0,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 3.469446951953614e-18,
+        "upper": 0.03699349820698568
+      },
+      "refusalReasons": [
+        "possible_construction_leakage:fabricated_reference:pooled"
+      ],
+      "claimBearing": false
+    },
+    {
+      "variant": "wrong_count",
+      "arm": "plain",
+      "numerator": 1,
+      "denominator": 50,
+      "rate": 0.02,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.003539259271646236,
+        "upper": 0.10495443589637815
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "wrong_count",
+      "arm": "persuasive",
+      "numerator": 0,
+      "denominator": 32,
+      "rate": 0,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0,
+        "upper": 0.1071791982550706
+      },
+      "refusalReasons": [
+        "possible_construction_leakage:wrong_count:persuasive"
+      ],
+      "claimBearing": false
+    },
+    {
+      "variant": "wrong_count",
+      "arm": "pooled",
+      "numerator": 1,
+      "denominator": 82,
+      "rate": 0.012195121951219513,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.002155992081812344,
+        "upper": 0.0658933968841392
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "scope_mismatch",
+      "arm": "plain",
+      "numerator": 0,
+      "denominator": 50,
+      "rate": 0,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0,
+        "upper": 0.07134759913335872
+      },
+      "refusalReasons": [
+        "possible_construction_leakage:scope_mismatch:plain"
+      ],
+      "claimBearing": false
+    },
+    {
+      "variant": "scope_mismatch",
+      "arm": "persuasive",
+      "numerator": 1,
+      "denominator": 48,
+      "rate": 0.020833333333333332,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.003687110977510649,
+        "upper": 0.10899217995251861
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    },
+    {
+      "variant": "scope_mismatch",
+      "arm": "pooled",
+      "numerator": 1,
+      "denominator": 98,
+      "rate": 0.01020408163265306,
+      "interval": {
+        "confidence": 0.95,
+        "z": 1.959963984540054,
+        "lower": 0.0018035477567974675,
+        "upper": 0.055554809913420274
+      },
+      "refusalReasons": [],
+      "claimBearing": true
+    }
+  ],
+  "calibration": {
+    "condition": "E",
+    "n": 430,
+    "bins": [
+      {
+        "lower": 0,
+        "upper": 0.1,
+        "n": 176,
+        "meanForecast": 0.02886363636363631,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 50,
+        "meanForecast": 0.13579999999999998,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 42,
+        "meanForecast": 0.24333333333333335,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 37,
+        "meanForecast": 0.34108108108108115,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 28,
+        "meanForecast": 0.44535714285714284,
+        "meanOutcome": 0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 27,
+        "meanForecast": 0.5529629629629629,
+        "meanOutcome": 0.037037037037037035
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 19,
+        "meanForecast": 0.6410526315789473,
+        "meanOutcome": 0.05263157894736842
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 4,
+        "meanForecast": 0.7625,
+        "meanOutcome": 0.75
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 22,
+        "meanForecast": 0.8590909090909089,
+        "meanOutcome": 0.9545454545454546
+      },
+      {
+        "lower": 0.9,
+        "upper": 1,
+        "n": 25,
+        "meanForecast": 0.9356,
+        "meanOutcome": 0.96
+      }
+    ],
+    "ece": 0.1745348837209302,
+    "eceInterval": {
+      "lower": 0.15768691588785044,
+      "upper": 0.19603773584905654
+    },
+    "brier": 0.07433883720930223,
+    "calibrationClaimPermitted": false,
+    "verdict": "calibration not established",
+    "gateFailures": [
+      "ece_above_0.05",
+      "ece_interval_upper_at_or_above_0.10"
+    ]
+  },
+  "crossTab": {
+    "n": 380,
+    "cells": [
+      {
+        "choiceCorrect": true,
+        "cleared": true,
+        "n": 0
+      },
+      {
+        "choiceCorrect": true,
+        "cleared": false,
+        "n": 324
+      },
+      {
+        "choiceCorrect": false,
+        "cleared": true,
+        "n": 47
+      },
+      {
+        "choiceCorrect": false,
+        "cleared": false,
+        "n": 9
+      }
+    ],
+    "clearedShareOfCorrect": 0
+  },
+  "prediction": {
+    "id": "P2c-A",
+    "statement": "From the frozen log, using p(accurate) from the Choice probabilities as the clearing score at threshold 0.5, the false-clear rate on wrong_count and on scope_mismatch is at most 20%, and on premature it is higher than both.",
+    "verdict": "supported",
+    "measured": "wrong_count=1.2% [0.2%, 6.6%] n=82; scope_mismatch=1.0% [0.2%, 5.6%] n=98; premature=45.0% [35.6%, 54.8%] n=100",
+    "note": "Composed clearing score p(accurate) from the Choice answer, pooled across the plain and persuasive arms — the same population the Choice-by-Noul cross-tab scores. The two at-most clauses are scored on their 95% Wilson intervals against 0.20; the ordering clause compares point estimates."
+  }
+}
